@@ -1,0 +1,23 @@
+{
+    "name": "aminos/codeigniter-blade",
+    "description": "Codeigniter blade template engine",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aminos"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/view": "^10.37",
+        "illuminate/filesystem": "^10.37"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aminos\\CodeigniterBlade\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
